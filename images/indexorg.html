@@ -57,19 +57,11 @@
                             class="violet block py-2 px-3 text-white text-lg lg:text-xl rounded hover:text-pink-500 md:hover:bg-transparent md:border-0 md:hover:text-pink-500 md:p-0"
                             aria-current="page"><i class="bx bx-coin"></i> HOME</a>
                     </li>
-					<li>
-					 <a href="#overview"
-        class="violet block py-2 px-3 text-white text-lg lg:text-xl rounded hover:text-pink-500 md:hover:bg-transparent md:border-0 md:hover:text-pink-500 md:p-0">
-        <i class="bx bx-book-open"></i> OVERVIEW
-    </a>
-                       </li>
-
-                    <<li>
-    <a href="#whitepaper"
-        class="violet block py-2 px-3 text-white text-lg lg:text-xl rounded hover:text-pink-500 md:hover:bg-transparent md:border-0 md:hover:text-pink-500 md:p-0">
-        <i class="bx bx-file"></i> WHITEPAPER
-    </a>
-</li>
+                    <li>
+                        <a href="#about"
+                            class="violet block py-2 px-3 text-white text-lg lg:text-xl rounded hover:text-pink-500 md:hover:bg-transparent md:border-0 md:hover:text-pink-500 md:p-0"
+                            aria-current="page"><i class="bx bx-coin"></i> ABOUT</a>
+                    </li>
                     <li>
                         <a href="#tokenomics"
                             class="violet block py-2 px-3 text-white text-lg lg:text-xl rounded hover:text-pink-500 md:hover:bg-transparent md:border-0 md:hover:text-pink-500 md:p-0"
@@ -78,7 +70,7 @@
 					<li>
                         <a href="#avatars"
                             class="violet block py-2 px-3 text-white text-lg lg:text-xl rounded hover:text-pink-500 md:hover:bg-transparent md:border-0 md:hover:text-pink-500 md:p-0"
-                            aria-current="page"><i class="bx bx-coin"></i> CHARACTERS</a>
+                            aria-current="page"><i class="bx bx-coin"></i> AVATARS</a>
                     </li>
                     <li>
                         <a href="#partners"
@@ -248,272 +240,109 @@
     </section>
 
     <!-- Tokenomics Section -->
-<section id="tokenomics" class=" text-white py-16">
-    <div class="container mx-auto text-center">
-        <div class="token1 flex flex-col-reverse md:flex-row md:items-center justify-start mx-4 md:mx-6 lg:mx-8">
-            <h1 class="token text-5xl lg:text-7xl font-extrabold mb-8 text-white">Tokenomics</h1>
-            <img class="w-32 md:w-42 lg:w-64 px-5" src="images/tok.svg" alt="">
-        </div>
-        
-        <!-- Tokenomics Chart Image -->
-        <div class="flex justify-center items-center my-8">
-            <img src="images/chart.png" 
-                 alt="Futurly Tokenomics Chart"
-                 class="w-full md:w-3/4 lg:w-1/2 rounded-lg shadow-lg">
-        </div>
+    <section id="tokenomics" class=" text-white py-16">
+        <div class="container mx-auto text-center">
+            <div class="token1 flex flex-col-reverse md:flex-row md:items-center justify-start mx-4 md:mx-6 lg:mx-8">
+                <h1 class="token text-5xl lg:text-7xl font-extrabold mb-8 text-white ">Tokenomics</h1>
+                <img class="w-32 md:w-42 lg:w-64 px-5" src="images/tok.svg" alt="">
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-8 m-10 align-middle ">
+                <!-- Total Supply -->
+                <div class="token1 p-6 border-4 border-white rounded-lg shadow-2xl">
+                    <h1 class="text-3xl font-bold mb-4 text-white">Total Supply</h1>
+                    <p class="tok pt-5">1.000.000.000 $FUTURLY </p>
+                </div>
+                <!-- Initial Liquidity -->
+                <div class="token2 p-6 border-4 border-white rounded-lg shadow-md">
+                    <h1 class="text-3xl font-bold mb-4 text-white">Tax</h1>
+                    <p class="tok   pt-5">5/5</p>
+                </div>
+                <!-- addd -->
+                <div class="token3 p-6 border-4 border-white rounded-lg shadow-md">
+                    <h1 class="text-3xl font-bold mb-4 text-white">CA</h1>
 
-        <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-8 m-10 align-middle">
-            <!-- Total Supply -->
-            <div class="token1 p-6 border-4 border-white rounded-lg shadow-2xl">
-                <h1 class="text-3xl font-bold mb-4 text-white">Total Supply</h1>
-                <p class="tok pt-5">1,000,000,000 $FUTURLY</p>
-            </div>
-            <!-- Tax -->
-            <div class="token2 p-6 border-4 border-white rounded-lg shadow-md">
-                <h1 class="text-3xl font-bold mb-4 text-white">Tax</h1>
-                <p class="tok pt-5">5/5</p>
-            </div>
-            <!-- Contract Address -->
-            <div class="token3 p-6 border-4 border-white rounded-lg shadow-md">
-                <h1 class="text-3xl font-bold mb-4 text-white">Contract Address</h1>
-                <div class="flex justify-center items-center w-full gap-x-3">
-                    <div id="hs-clipboard-basic" class="text-white border rounded-lg w-full">
-                        <input id="hs-clipboard-input" type="text"
-                               class="py-3 px-4 block rounded-lg text-sm w-full md:w-full placeholder:text-white bg-black"
-                               value="0xbEF1a4b285274B64876f61dB5cCF07E439312D43">
-                    </div>
-                    <button type="button"
-                            class="js-clipboard p-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border text-white shadow-sm"
+                    <div class="flex justify-center items-center w-full gap-x-3">
+
+                        <div id="hs-clipboard-basic" class=" text-white border  rounded-lg w-full ">
+                            <input id="hs-clipboard-input" type="text"
+                                class="py-3 px-4 block rounded-lg text-sm w-full md:w-full placeholder:text-white  bg-black"
+                                value="0xbEF1a4b285274B64876f61dB5cCF07E439312D43">
+                        </div>
+                        <button type="button"
+                            class="js-clipboard p-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border text-white shadow-sm disabled:opacity-50 disabled:pointer-events-none "
                             data-clipboard-target="#hs-clipboard-basic" data-clipboard-action="copy"
                             data-clipboard-success-text="Copied" onclick="changeCopyText(this)">
-                        <svg class="js-clipboard-default w-4 h-4 group-hover:rotate-6 transition"
-                             xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                             stroke-linejoin="round">
-                            <rect width="8" height="4" x="8" y="2" rx="1" ry="1" />
-                            <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" />
-                        </svg>
-                        <svg class="js-clipboard-success hidden w-4 h-4 text-blue-600"
-                             xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                             stroke-linejoin="round">
-                            <polyline points="20 6 9 17 4 12" />
-                        </svg>
-                    </button>
+                            <svg class="js-clipboard-default w-4 h-4 group-hover:rotate-6 transition"
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <rect width="8" height="4" x="8" y="2" rx="1" ry="1" />
+                                <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" />
+                            </svg>
+
+                            <svg class="js-clipboard-success hidden w-4 h-4 text-blue-600"
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12" />
+                            </svg>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-
-<!-- Whitepaper Section -->
-<section id="whitepaper" class="py-16 text-white bg-gray-900">
-    <div class="container mx-auto text-center px-5 lg:px-20">
-        <h1 class="text-5xl lg:text-7xl font-extrabold mb-8">Futurly Whitepaper</h1>
-
-        <!-- Introduction -->
-        <div class="text-left bg-gray-800 p-8 rounded-lg shadow-lg mb-10">
-            <h2 class="text-3xl font-bold text-cyan-400 mb-4">1. Introduction</h2>
-            <p class="text-lg text-gray-300">
-                Futurly is an innovative blockchain-based metaverse ecosystem designed to revolutionize the digital economy 
-                by integrating decentralized finance (DeFi), NFT assets, and interactive gameplay. 
-                The platform is structured around a unique tokenomics model that ensures sustainability, investor engagement, and liquidity efficiency.
-            </p>
-        </div>
-
-        <!-- Vision & Mission -->
-        <div class="text-left bg-gray-800 p-8 rounded-lg shadow-lg mb-10">
-            <h2 class="text-3xl font-bold text-yellow-400 mb-4">2. Vision & Mission</h2>
-            <p class="text-lg text-gray-300">
-                <strong class="text-cyan-300">Vision:</strong> To create a fully immersive metaverse where users can own, trade, and interact with digital assets in a decentralized environment.
-            </p>
-            <p class="text-lg text-gray-300">
-                <strong class="text-cyan-300">Mission:</strong> To provide a secure, engaging, and scalable ecosystem that bridges blockchain technology with real-world applications.
-            </p>
-        </div>
-
-        <!-- Tokenomics -->
-        <div class="text-left bg-gray-800 p-8 rounded-lg shadow-lg mb-10">
-            <h2 class="text-3xl font-bold text-red-400 mb-4">3. Tokenomics</h2>
-            <p class="text-lg text-gray-300"><strong>Total Supply:</strong> 1,000,000,000 FTR</p>
-            <ul class="list-none space-y-2 mt-4">
-                <li class="flex items-start"><span class="text-green-400 text-2xl mr-2">✅</span> 50% (500M) - IDO & Presale (Liquidity attraction & mass investment)</li>
-                <li class="flex items-start"><span class="text-green-400 text-2xl mr-2">✅</span> 25% (250M) - Liquidity Pool (Ensuring market stability post-launch)</li>
-                <li class="flex items-start"><span class="text-green-400 text-2xl mr-2">✅</span> 12% (120M) - Team & Marketing (Development & outreach efforts)</li>
-                <li class="flex items-start"><span class="text-green-400 text-2xl mr-2">✅</span> 8% (80M) - Staking & Rewards (Encouraging long-term retention)</li>
-                <li class="flex items-start"><span class="text-green-400 text-2xl mr-2">✅</span> 5% (50M) - Strategic Reserve (For contingencies & sustainability)</li>
-            </ul>
-        </div>
-
-        <!-- Character Tokens -->
-        <div class="text-left bg-gray-800 p-8 rounded-lg shadow-lg mb-10">
-            <h2 class="text-3xl font-bold text-purple-400 mb-4">4. Character Tokens</h2>
-            <ul class="list-none space-y-2">
-                <li>🟢 50% - IDO & Presale</li>
-                <li>🟡 20% - Platform Utility (Usability within the ecosystem)</li>
-                <li>🟠 18% - Community Rewards (Encouraging participation)</li>
-                <li>🔵 10% - Liquidity Pool (Ensuring token stability within the metaverse)</li>
-                <li>🔴 2% - Team Allocation (Preventing excessive control)</li>
-            </ul>
-        </div>
-
-        <!-- Market Protection & Stability Mechanisms -->
-        <div class="text-left bg-gray-800 p-8 rounded-lg shadow-lg mb-10">
-            <h2 class="text-3xl font-bold text-orange-400 mb-4">5. Market Protection & Stability Mechanisms</h2>
-            <ul class="list-none space-y-2">
-                <li>🔒 <strong>Vesting Schedule:</strong> 10% unlock at launch, followed by 5% monthly for 18 months.</li>
-                <li>🔥 <strong>Token Burning:</strong> 5% of ecosystem transaction fees will be burned.</li>
-                <li>💰 <strong>Unsold Tokens:</strong> Any unsold IDO tokens will be burned.</li>
-                <li>📈 <strong>Long-term Holding Incentives:</strong> Up to 15% APY staking rewards.</li>
-            </ul>
-        </div>
-
-        <!-- Roadmap -->
-        <div class="text-left bg-gray-800 p-8 rounded-lg shadow-lg mb-10">
-            <h2 class="text-3xl font-bold text-blue-400 mb-4">6. Roadmap</h2>
-            <ul class="list-none space-y-2">
-                <li>📌 <strong>Q1 2025:</strong> Platform Development & Smart Contract Deployment.</li>
-                <li>📌 <strong>Q2 2025:</strong> IDO & Token Launch on major launchpads.</li>
-                <li>📌 <strong>Q3 2025:</strong> Integration of NFT Marketplace & Metaverse features.</li>
-                <li>📌 <strong>Q4 2025:</strong> Expansion of community engagement & liquidity pools.</li>
-                <li>🚀 <strong>2026 & Beyond:</strong> Continuous ecosystem growth and strategic partnerships.</li>
-            </ul>
-        </div>
-
-        <!-- Conclusion -->
-        <div class="text-left bg-gray-800 p-8 rounded-lg shadow-lg">
-            <h2 class="text-3xl font-bold text-pink-400 mb-4">7. Conclusion</h2>
-            <p class="text-lg text-gray-300">
-                Futurly aims to redefine the metaverse landscape by merging blockchain innovation with real-world applications.
-                The structured tokenomics, robust security measures, and clear roadmap position Futurly as a leading 
-                decentralized platform for digital asset ownership and economic interaction.
-            </p>
-        </div>
-    </div>
-</section>
-
-
-	<!-- Overview Section -->
-<section id="overview" class="py-16 text-white bg-gray-900">
-    <div class="container mx-auto text-center px-5 lg:px-20">
-        <h1 class="text-5xl lg:text-7xl font-extrabold mb-8">Project Overview - Futurly</h1>
-
-        <p class="text-lg lg:text-2xl text-gray-300 mb-10">
-            Futurly is a blockchain-based metaverse ecosystem designed to redefine the digital economy by integrating 
-            decentralized finance (DeFi), digital assets (NFTs), and interactive metaverse experiences. 
-            The project is built upon an advanced tokenomics model that ensures sustainability, liquidity stability, 
-            and investor protection.
-        </p>
-
-        <!-- Core Concept -->
-        <div class="text-left bg-gray-800 p-8 rounded-lg shadow-lg mb-10">
-            <h2 class="text-3xl font-bold text-cyan-400 mb-4">🔹 Core Concept</h2>
-            <ul class="list-none space-y-4">
-                <li class="flex items-start"><span class="text-green-400 text-2xl mr-2">✅</span> An interactive metaverse where users can own digital assets, engage in virtual worlds, and participate in the decentralized economy.</li>
-                <li class="flex items-start"><span class="text-green-400 text-2xl mr-2">✅</span> A dual-token system featuring <strong>$FTR</strong> as the main token, along with character-specific tokens that serve functional roles within the platform.</li>
-                <li class="flex items-start"><span class="text-green-400 text-2xl mr-2">✅</span> Multiple investment mechanisms through Initial DEX Offerings (IDO) to attract liquidity before launching the main token.</li>
-                <li class="flex items-start"><span class="text-green-400 text-2xl mr-2">✅</span> Integration of gaming, digital commerce, and NFTs to create a sustainable in-platform economy.</li>
-            </ul>
-        </div>
-
-        <!-- How Futurly Works -->
-        <div class="text-left bg-gray-800 p-8 rounded-lg shadow-lg mb-10">
-            <h2 class="text-3xl font-bold text-yellow-400 mb-4">🔹 How Futurly Works?</h2>
-            
-            <h3 class="text-xl font-semibold text-green-300 mb-3">🟢 Launch of unique digital characters with individual tokens:</h3>
-            <p class="text-gray-300 mb-4">Each character is issued through a separate IDO on platforms like Pinksale and Solana IDO Launchpads. Every character has a utility function within the ecosystem, enhancing engagement and value. Users can trade, stake, and use these tokens in the metaverse.</p>
-            
-            <h3 class="text-xl font-semibold text-orange-300 mb-3">🟠 $FTR - The core token of the ecosystem:</h3>
-            <p class="text-gray-300 mb-4">Once character IDOs are successfully launched, <strong>$FTR</strong> will be introduced as the primary token. It will serve as the central currency for governance, transactions, and upgrades within the metaverse. Users can swap character tokens for $FTR, enabling seamless ecosystem participation.</p>
-            
-            <h3 class="text-xl font-semibold text-blue-300 mb-3">🔵 Integration into the metaverse and gaming economy:</h3>
-            <p class="text-gray-300">Characters and assets can be utilized within the metaverse, enabling virtual asset trading and interactive experiences. NFT ownership allows users to acquire exclusive assets, such as virtual properties, fashion items, and collectibles.</p>
-        </div>
-
-        <!-- What's Next -->
-        <div class="text-left bg-gray-800 p-8 rounded-lg shadow-lg">
-            <h2 class="text-3xl font-bold text-purple-400 mb-4">🚀 What’s Next?</h2>
-            <p class="text-lg text-gray-300">
-                Futurly is designed to merge blockchain innovation with real-world applications, creating a self-sustaining, investor-friendly digital economy. 
-                The combination of IDO-driven liquidity, metaverse integration, and tokenized assets positions Futurly as a leading decentralized platform in the blockchain industry.
-            </p>
-        </div>
-    </div>
-</section>
-
+    </section>
 	<section id="avatars">
         <div class="container mx-auto text-center p-5 lg:pb-20">
             <div
                 class="token1 flex flex-col-reverse md:flex-row items-center justify-center lg:justify-start mx-4 md:mx-6 lg:mx-8">
-                <h1 class="token text-5xl lg:text-7xl font-extrabold mb-8 text-white ">Characters</h1>
-				
+                <h1 class="token text-5xl lg:text-7xl font-extrabold mb-8 text-white ">Avatras</h1>
                 <img class="w-32 md:w-42 lg:w-64 px-5" src="images/aaa.png" alt="">
             </div>
-			<div
-			class="token1 flex flex-col-reverse md:flex-row items-center justify-center lg:justify-start mx-4 md:mx-6 lg:mx-8">
-                <h1 class="token text-5xl lg:text-7xl font-extrabold mb-8 text-white ">  </h1>
-			
-			</div>
 
             <div
                 class="flex flex-col lg:flex-row justify-center items-center align-middle mb-5 md:mb-10 lg:mb-20 mt-5 lg:mt-20 ">
 
                 
                     <div class="token1 w-64 h-64 flex items-center lg:w-1/3 mx-4 md:mx-6 lg:mx-8 mb-8">
-    <div class="flex flex-col justify-center items-center border-4 rounded-lg m-4 lg:m-10 p-10 transform hover:scale-110 transition duration-200">
-        <div class="flex justify-center items-center">
-            <img class="w-32 lg:w-64" src="images/alix.png" alt="Alex Avatar">
-        </div>
-        <div class="flex justify-center items-center">
-            <p class="text-3xl lg:text-7xl text-white">ALEX</p>
-        </div>
-
-        <!-- List under Alex -->
-        <ul class="mt-4 text-lg text-gray-300 text-left">
-             <li>🤖 <strong>$ِALEX</strong></li>
-			<li>🕶️ <strong>Intelligence & Technology</strong></li>
-            <li>💼 <strong>Entrepreneur</strong></li>
-            <li>🤖 <strong>AI Enthusiast</strong></li>
-        </ul>
-    </div>
-</div>
-
+                        <div
+                            class="flex flex-col justify-center items-center border-4 rounded-lg m-4 lg:m-10 p-10 transform hover:scale-110 transition duration-200">
+                            <div class="flex justify-center items-center">
+                                <img class="w-32 lg:w-64 " src="images/alix.png" alt="">
+                            </div>
+                            <div class="flex justify-center items-center">
+                                
+								<p class="text-3xl lg:text-7xl text-white">ALEX</p>
+								
+                            </div>
+                        </div>
+                    </div>
                 <div class="token1 w-64 h-64 flex items-center lg:w-1/3 mx-4 md:mx-6 lg:mx-8 mb-8">
-    <div class="flex flex-col justify-center items-center border-4 rounded-lg m-4 lg:m-10 p-10 transform hover:scale-110 transition duration-200">
-        <div class="flex justify-center items-center">
-            <img class="w-32 lg:w-64" src="images/alix.png" alt="Alex Avatar">
-        </div>
-        <div class="flex justify-center items-center">
-            <p class="text-3xl lg:text-7xl text-white">LINA</p>
-        </div>
-
-        <!-- List under Alex -->
-        <ul class="mt-4 text-lg text-gray-300 text-left">
-            <li>🕶️ <strong>$LINA</strong></li>
-            <li>💼 <strong>Entrepreneur</strong></li>
-            <li>🤖 <strong>AI Enthusiast</strong></li>
-        </ul>
-    </div>
-</div>
-
-<div class="token1 w-64 h-64 flex items-center lg:w-1/3 mx-4 md:mx-6 lg:mx-8 mb-8">
-    <div class="flex flex-col justify-center items-center border-4 rounded-lg m-4 lg:m-10 p-10 transform hover:scale-110 transition duration-200">
-        <div class="flex justify-center items-center">
-            <img class="w-32 lg:w-64" src="images/alix.png" alt="Alex Avatar">
-        </div>
-        <div class="flex justify-center items-center">
-            <p class="text-3xl lg:text-7xl text-white">SAMA</p>
-        </div>
-
-        <!-- List under Alex -->
-        <ul class="mt-4 text-lg text-gray-300 text-left">
-            <li>🕶️ <strong>$SAMA</strong></li>
-            <li>💼 <strong>Entrepreneur</strong></li>
-            <li>🤖 <strong>AI Enthusiast</strong></li>
-        </ul>
-    </div>
-</div>
-
+                        <div
+                            class="flex flex-col justify-center items-center border-4 rounded-lg m-4 lg:m-10 p-10 transform hover:scale-110 transition duration-200">
+                            <div class="flex justify-center items-center">
+                                <img class="w-32 lg:w-64 " src="images/lina.png" alt="">
+                            </div>
+                            <div class="flex justify-center items-center">
+                                
+								<p class="text-3xl lg:text-7xl text-white">LINA</p>
+								
+                            </div>
+                        </div>
+                    </div>
+					<div class="token1 w-64 h-64 flex items-center lg:w-1/3 mx-4 md:mx-6 lg:mx-8 mb-8">
+                        <div
+                            class="flex flex-col justify-center items-center border-4 rounded-lg m-4 lg:m-10 p-10 transform hover:scale-110 transition duration-200">
+                            <div class="flex justify-center items-center">
+                                <img class="w-32 lg:w-64 " src="images/sophia.png" alt="">
+                            </div>
+                            <div class="flex justify-center items-center">
+                                
+								<p class="text-3xl lg:text-7xl text-white">SOPHIA</p>
+								
+                            </div>
+                        </div>
+                    </div>
                 
             </div>
         </div>
@@ -597,7 +426,7 @@
     <footer class="bg-gray-900 text-white py-4 text-center mt-10">
         <div class="container mx-auto">
             <!-- Disclaimer, social media icons, copyright here -->
-            <p class="text-sm text-white">Copyright FUTURLY © 2025. All rights reserved</p>
+            <p class="text-sm text-white">Copyright Baby Trump © 2024. All rights reserved</p>
         </div>
     </footer>
 
@@ -606,10 +435,6 @@
 <script>
 
     ScrollReveal().reveal(".social", { delay: 100, reset: true, origin: 'right', distance: '20px', duration: 300 });
-	ScrollReveal().reveal("#overview", { delay: 100, reset: true, origin: 'bottom', distance: '20px', duration: 300 });
-	ScrollReveal().reveal("#whitepaper", { delay: 100, reset: true, origin: 'bottom', distance: '50px', duration: 500 });
-
-
 
     ScrollReveal().reveal(".token3", { delay: 100, reset: true, origin: 'right', distance: '500px', duration: 500 });
     ScrollReveal().reveal(".token2", { delay: 100, reset: true, origin: 'right', distance: '500px', duration: 500 });
